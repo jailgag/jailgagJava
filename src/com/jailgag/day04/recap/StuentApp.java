@@ -37,12 +37,12 @@ public class StuentApp {
 				System.out.println("수학 :" + math);
 				System.out.println("총점 :" + (kor+eng+math));
 				System.out.println("평균" +(kor+eng+math));
-				System.out.println("평균: " + kor+eng+math)/(double)3);
+				System.out.println("평균: " + (kor+eng+math)/(double)3);
 				break;
 			case 3: 
 				System.out.println("=====프로그램이 종료 되었습니다");
 				return;
-			
+			}
 		}
 	}
 }
